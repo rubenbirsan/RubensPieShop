@@ -16,6 +16,7 @@ namespace RubensPieShop.Controllers
         public HomeController(IPieRepository pieRepository)
         {
             _pieRepository = pieRepository;
+
         }
 
         public IActionResult Index()
